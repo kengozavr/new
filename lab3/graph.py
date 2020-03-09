@@ -315,7 +315,7 @@ def circle(x, y, R):
     return circ
 
 
-def polygon(points):
+def polygon(points: object) -> object:
     coord = unpackCoord(points)
     if points[0] != points[-1]:
         points.append(points[0])
