@@ -18,7 +18,6 @@ schet = c.create_text(400, 30, text = stroka, justify = CENTER, font = "Verdana 
 def new_ball():
     global x, y, r, x_vector, y_vector, ball, time, flag_ball
     c.delete(ball)
-    print("Sharik delete")
     x = rnd(100, 700)
     y = rnd(100, 500)
     r = rnd(30, 50)
